@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+
+            /*
+
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            */
+
+            /* Shothand - background
+
+                color > image > position > repeat > [size] > attachment
+
+                o size não funciona dentro da shorthand
+                (no manual da w3c ele existe dentro da shothand)
+
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +46,14 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum ab fuga perferendis voluptates, dolor expedita facilis vel possimus odit explicabo, repellat ducimus atque saepe corrupti. Explicabo dolorum esse accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem hic voluptate laboriosam accusantium. Deserunt accusantium perferendis ducimus delectus eaque vero quo quidem debitis, earum accusamus necessitatibus assumenda, fuga at asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae optio, reprehenderit iusto incidunt harum error, omnis vel cupiditate a soluta molestiae ipsam eveniet, ex nesciunt voluptatem ipsa! Omnis, mollitia!</p>
     </main>
 </body>
